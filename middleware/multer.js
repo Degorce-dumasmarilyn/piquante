@@ -12,6 +12,7 @@ function makeFilename(req, file){
     file.fileName = fileName
     return fileName
 }
+
 const upload = multer({ storage })
 
 module.exports = {upload}
